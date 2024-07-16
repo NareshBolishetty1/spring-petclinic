@@ -2,7 +2,7 @@ FROM openjdk:11-jre-slim
 
 WORKDIR /app
 
-COPY target/your-java-application.jar /app/your-java-application.jar
+COPY target/*.jar /app
 
 EXPOSE 9090
 
